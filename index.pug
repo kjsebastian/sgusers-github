@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+  head
+    style.
+      img {
+        width: 80px;
+      }
+  body
+    .container
+      each user in users
+        div
+          img(src=user.avatar_url)
+          div
+            a(href=user.url)= user.login
