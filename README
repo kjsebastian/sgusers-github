@@ -1,3 +1,5 @@
 `npm install` then `node index.js` to start.
 
+Any query params such as &page,&per_page,&sort,&order etc will be passed to github api
+
 Tested on node v7
